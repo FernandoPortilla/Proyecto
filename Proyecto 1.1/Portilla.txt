@@ -1,0 +1,9 @@
+
+		Nombre: Fernando
+		Primer Apellido: Portilla
+		Segundo Apellido: Posadas
+		Genero: M
+		Direccion: calle1
+		Correo Electronico: FEr@gmal.com
+		Telefono: 1234567890
+		

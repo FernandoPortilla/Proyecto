@@ -1,0 +1,93 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gestión Escolar-Ingresar</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-gap: 20px;
+        }
+        header,
+        footer {
+            color: white;
+            border-radius: 20px;
+            padding: 30px;
+            background-color:#373232;
+        }
+
+        aside {
+            border-right: 1px solid #999;
+        }
+    </style>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body background="img/fondo.jpg">
+    <nav class="navbar navbar-dark bg-dark">
+                <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Pagina Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Ingresardatos.html">Ingresa tus datos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Verdatos.html">Visualiza tu registro</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link " href="Contacto.html">Contacto</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link " href="Informacion.html">Información</a>
+          </li>
+
+        </ul>
+</nav>
+<br>
+
+<form method="post" action="visor.php">
+
+<P ALIGN=center> 
+
+
+<label> <font font size=7> FORMULARIO DE REGISTRO </font> </label>
+<br />
+<br />
+
+<label for="input_nombres"><font font size=5>Nombres</font></label>
+<input id="input_nombres" type="text" name="Nombres" value="" />
+<br />
+<br />
+<label for="primer_apll"><font  font size=5>Primer apellido</font></label>
+<input id="primer_apll" type="text" name="Primerapellido" value="" />
+<br /><br />
+<label for="segundo_apll"><font  font size=5>Segundo apellido</font></label>
+<input id="segundo_apll" type="text" name="Segundoapellido" value="" />
+<br /><br />
+
+<label for="input_Genero"><font font size=5>Género</font></label>
+<select id="select_genero" name="Genero">
+<option value="M">Masculino</option>
+<option value="F">Femenino</option>
+</select>
+<br /><br />
+
+
+<label for="direccion"><font  font size=5>Dirección</font></label>
+<input id="direccion" type="text" name="Direccion" value="" />
+<br /><br />
+<label for="correo"><font  font size=5>Correo electrónico</font></label>
+<input id="correo" type="text" name="CorreoElectronico" value="" />
+<br /><br />
+<label for="telefono"><font  font size=5>Teléfono</font></label>
+<input id="telefono" type="text" name="Telefono" value="" />
+<br /><br />
+<input type="reset" name="reset" value="Limpiar" />
+<input type="submit" name="submit" value="Enviar" />
+<br /><br />
+</form>
+</body>
+</html>
